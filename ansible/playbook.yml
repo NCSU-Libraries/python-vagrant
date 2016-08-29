@@ -1,0 +1,11 @@
+---
+- hosts: python-dev
+  gather_facts: yes
+  become: yes
+  become_method: sudo
+  become_user: root
+  vars:
+    project_name: python-dev
+  roles:
+    - role: basic-setup
+    - role: python

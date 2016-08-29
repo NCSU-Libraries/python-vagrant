@@ -1,0 +1,5 @@
+.vagrant/
+ansible/ansible.log
+ansible/tmp/*
+*.retry
+code/pdf_files/*
